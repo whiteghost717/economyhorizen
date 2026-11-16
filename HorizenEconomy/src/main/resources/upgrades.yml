@@ -1,0 +1,9 @@
+ender-storage:
+  levels: 3
+  prices: [5000, 25000, 100000]
+homes:
+  levels: 3
+  prices: [10000, 50000, 200000]
+sell-limit:
+  levels: 3
+  prices: [5000, 20000, 75000]

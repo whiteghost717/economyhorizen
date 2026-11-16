@@ -1,0 +1,14 @@
+# Material names must exist in the server's Bukkit Material registry.
+categories:
+  Rare:
+    items: [ELYTRA, NETHER_STAR, HEART_OF_THE_SEA]
+  Legendary:
+    items: [NETHERITE_SWORD, NETHERITE_CHESTPLATE, TRIDENT]
+  Spawners:
+    items: [SPAWNER]
+  Survival:
+    items: [TOTEM_OF_UNDYING, ENCHANTED_GOLDEN_APPLE, SHULKER_BOX]
+  Collectibles:
+    items: [DRAGON_EGG, DRAGON_HEAD, WITHER_SKELETON_SKULL]
+  Cosmetics:
+    items: [PLAYER_HEAD, FIREWORK_ROCKET, NAME_TAG]

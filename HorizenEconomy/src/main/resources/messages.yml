@@ -1,0 +1,5 @@
+prefix: '&8[&5HorizenEconomy&8] &r'
+no-permission: '&cYou do not have permission.'
+invalid-amount: '&cEnter a valid positive whole-number amount.'
+not-enough: '&cYou do not have enough funds.'
+transaction-ok: '&aTransaction completed.'

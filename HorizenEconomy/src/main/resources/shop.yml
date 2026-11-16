@@ -1,0 +1,41 @@
+# Default catalogue; prices are whole rupees. Edit freely.
+categories:
+  Farming:
+    icon: WHEAT
+    items:
+      WHEAT: {buy: 8, sell: 2}
+      CARROT: {buy: 8, sell: 2}
+      POTATO: {buy: 8, sell: 2}
+      BEETROOT: {buy: 10, sell: 3}
+      SUGAR_CANE: {buy: 12, sell: 3}
+      PUMPKIN: {buy: 24, sell: 6}
+      MELON: {buy: 18, sell: 4}
+      OAK_SAPLING: {buy: 20, sell: 5}
+  Commands:
+    icon: COMPASS
+    items:
+      ENDER_PEARL: {buy: 120, sell: 25}
+      EXPERIENCE_BOTTLE: {buy: 250, sell: 50}
+      FIREWORK_ROCKET: {buy: 45, sell: 8}
+      NAME_TAG: {buy: 500, sell: 100}
+      LEAD: {buy: 80, sell: 15}
+  Gear:
+    icon: DIAMOND_CHESTPLATE
+    items:
+      IRON_SWORD: {buy: 250, sell: 60}
+      DIAMOND_SWORD: {buy: 2500, sell: 600}
+      IRON_PICKAXE: {buy: 300, sell: 70}
+      DIAMOND_PICKAXE: {buy: 3000, sell: 700}
+      SHIELD: {buy: 500, sell: 100}
+  Ores:
+    icon: DIAMOND
+    items:
+      COAL: {buy: 20, sell: 5}
+      RAW_IRON: {buy: 45, sell: 12}
+      RAW_GOLD: {buy: 70, sell: 18}
+      COPPER_INGOT: {buy: 25, sell: 6}
+      IRON_INGOT: {buy: 80, sell: 20}
+      GOLD_INGOT: {buy: 120, sell: 30}
+      DIAMOND: {buy: 800, sell: 200}
+      EMERALD: {buy: 500, sell: 125}
+      ANCIENT_DEBRIS: {buy: 5000, sell: 1200}

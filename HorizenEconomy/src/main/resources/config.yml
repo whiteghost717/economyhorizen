@@ -1,0 +1,49 @@
+currency:
+  symbol: 'रू'
+  compact-format: true
+  starting-balance: 0
+limits:
+  min-transaction: 1
+  max-payment: 1000000000000000
+  max-balance: 9000000000000000000
+  max-shop-quantity: 64
+bank:
+  interest-enabled: false
+  interest-percent: 0.5
+  interest-period-hours: 24
+  savings-enabled: true
+manager:
+  price: 100000000000000
+  prefix: '&c[Manager]'
+  powers:
+    fly: true
+    gamemode: true
+    teleport: true
+    heal: true
+    feed: true
+    give: true
+  admin-shop-free: true
+orders:
+  unlock-price: 100000
+  partial-fulfilment: true
+  expiry-hours: 168
+auctions:
+  unlock-price: 250000
+  duration-hours: 24
+  anti-sniping-enabled: true
+  anti-sniping-seconds: 120
+  anti-sniping-extension-seconds: 120
+  commission-percent: 0
+upgrades:
+  ender-storage:
+    prices: [5000, 25000, 100000]
+  homes:
+    prices: [10000, 50000, 200000]
+  sell-limit:
+    prices: [5000, 20000, 75000]
+
+sell:
+  base-item-limit: 128
+  items-per-level: 128
+shop:
+  confirmation-threshold: 10000

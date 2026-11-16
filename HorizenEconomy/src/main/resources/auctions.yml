@@ -1,0 +1,6 @@
+unlock-price: 250000
+duration-hours: 24
+anti-sniping-enabled: true
+anti-sniping-seconds: 120
+anti-sniping-extension-seconds: 120
+commission-percent: 0

@@ -1,0 +1,37 @@
+name: HorizenEconomy
+version: 1.0.0
+main: com.horizen.economy.HorizenEconomy
+api-version: '26.3'
+author: Horizen SMP
+description: Persistent economy, banking, shops, upgrades, manager rank, orders and anonymous auctions.
+commands:
+  balance: {aliases: [bal], description: View your wallet balance, permission: horizeneconomy.balance}
+  pay: {description: Pay another player, usage: /pay <player> <amount>, permission: horizeneconomy.pay}
+  baltop: {description: View the richest players, permission: horizeneconomy.balance}
+  bank: {description: Open your bank account, permission: horizeneconomy.bank}
+  eco: {description: Admin economy management, usage: /eco <give|take|set> <player> <amount>, permission: horizeneconomy.admin}
+  shop: {description: Open the main shop, permission: horizeneconomy.shop}
+  sell: {description: Sell items, usage: "/sell [all|hand]", permission: horizeneconomy.shop}
+  upgrade: {description: Open permanent upgrades, permission: horizeneconomy.upgrades}
+  opshop: {description: Custom Manager rank shop, usage: "/opshop [buy|status]", permission: horizeneconomy.opshop}
+  adminshop: {description: Open the manager-only admin shop, permission: horizeneconomy.manager}
+  hop: {description: Custom Manager powers, usage: /hop help, permission: horizeneconomy.manager}
+  order: {description: Anonymous private player orders, permission: horizeneconomy.orders}
+  auction: {description: Anonymous auction house, permission: horizeneconomy.auction}
+permissions:
+  horizeneconomy.balance: {default: true}
+  horizeneconomy.pay: {default: true}
+  horizeneconomy.shop: {default: true}
+  horizeneconomy.bank: {default: true}
+  horizeneconomy.upgrades: {default: true}
+  horizeneconomy.orders: {default: true}
+  horizeneconomy.auction: {default: true}
+  horizeneconomy.opshop: {default: true}
+  horizeneconomy.manager: {default: false}
+  horizeneconomy.manager.fly: {default: false}
+  horizeneconomy.manager.gamemode: {default: false}
+  horizeneconomy.manager.teleport: {default: false}
+  horizeneconomy.manager.heal: {default: false}
+  horizeneconomy.manager.feed: {default: false}
+  horizeneconomy.manager.give: {default: false}
+  horizeneconomy.admin: {default: op}
