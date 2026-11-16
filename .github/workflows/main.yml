@@ -3,9 +3,7 @@ name: Build HorizenEconomy
 
 on:
   push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -24,12 +22,12 @@ jobs:
           cache: maven
 
       - name: Build and test
+        working-directory: HorizenEconomy
         run: mvn -B clean verify
 
       - name: Upload plugin JAR
-        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: HorizenEconomy
-          path: target/HorizenEconomy-1.0.0.jar
+          path: HorizenEconomy/target/HorizenEconomy-1.0.0.jar
           if-no-files-found: error
